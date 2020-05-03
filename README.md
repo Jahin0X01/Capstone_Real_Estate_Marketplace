@@ -42,11 +42,13 @@ deploy to the rinkeby network
 truffle migrate --network rinkeby
 ```
 you will have the contract address SolnSquareVerifier as an output of the last step and all the output i have i save in the file "rinkeby migration info" .
-`contract address:    0xf388B2DDbbad99e559e6DBA5Ba8629DF5819e8C8` and you can check it in the etherscan and this is my address transactions in the rinkeby network 
+`contract address:    0xf388B2DDbbad99e559e6DBA5Ba8629DF5819e8C8`
+`account:             0x08d94E7b0Bd79A1050265C4fb9e98736d672F827`
+ and you can check it in the etherscan and this is my address transactions in the rinkeby network 
 https://rinkeby.etherscan.io/address/0x08d94E7b0Bd79A1050265C4fb9e98736d672F827
 After the migration is finished we now will mint the tokens using myetherwallet 
 https://www.myetherwallet.com/interface/interact-with-contract
-all you need is the contract address we have in migration step and the ABI and you can find in the `eth-contracts\build\contracts\SolnSquareVerifier.json`
+all you need is the contract address we have in migration step and the ABI and you can find in the `eth-contracts\build\contracts\SolnSquareVerifier.json` and i add the file in the directory for the ABI named "Contracti-ABI"  
 now after creating the tokens go to 
 https://rinkeby.opensea.io/ then go to develop section and generate your marketplace after that add an existing contract and add your contract address and you will have your items like that 
 https://rinkeby.opensea.io/assets/jahinhouse-v2 
