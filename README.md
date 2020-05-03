@@ -36,7 +36,7 @@ $ truffle test .\test\TestERC721Mintable.js
 $ truffle test .\test\TestSolnSquareVerifier.js
 $ truffle test .\test\TestSquareVerifier.js  
 ```
-![truffle test video](https://drive.google.com/uc?export=view&id=1WFTbmwRqvyPrb95R0KqXYiILvA7ORIrA)
+[![truffle test](https://res.cloudinary.com/marcomontalbano/image/upload/v1588509560/video_to_markdown/images/google-drive--1WFTbmwRqvyPrb95R0KqXYiILvA7ORIrA-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://drive.google.com/file/d/1WFTbmwRqvyPrb95R0KqXYiILvA7ORIrA/view?usp=sharing "truffle test")
 deploy to the rinkeby network
 
 ```sh
